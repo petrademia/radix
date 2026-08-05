@@ -6,7 +6,7 @@ Go Redis-compatible cache learning harness. **You implement** RESP, store, and T
 
 ## Languages (locked)
 
-**Go** — matrix: [`../SYSTEMS_LANGUAGE_MATRIX.md`](../SYSTEMS_LANGUAGE_MATRIX.md)
+**Go**
 
 ## Specs
 
