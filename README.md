@@ -4,6 +4,12 @@
 
 In-memory Redis-compatible cache: RESP protocol over TCP, TTL expiration, and LRU eviction.
 
+## Languages (locked)
+
+**Go**
+
+Canonical matrix: [`../SYSTEMS_LANGUAGE_MATRIX.md`](../SYSTEMS_LANGUAGE_MATRIX.md)
+
 ## Goals
 
 - RESP2/RESP3 parser
@@ -13,4 +19,4 @@ In-memory Redis-compatible cache: RESP protocol over TCP, TTL expiration, and LR
 
 ## Status
 
-Scaffold only.
+Scaffold only (harness not built yet).
