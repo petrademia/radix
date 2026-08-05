@@ -2,21 +2,28 @@
 
 **RESP-Addressable Data In-memory eXchange**
 
-In-memory Redis-compatible cache: RESP protocol over TCP, TTL expiration, and LRU eviction.
+Go Redis-compatible cache learning harness. **You implement** RESP, store, and TCP server.
 
 ## Languages (locked)
 
-**Go**
+**Go** — matrix: [`../SYSTEMS_LANGUAGE_MATRIX.md`](../SYSTEMS_LANGUAGE_MATRIX.md)
 
-Canonical matrix: [`../SYSTEMS_LANGUAGE_MATRIX.md`](../SYSTEMS_LANGUAGE_MATRIX.md)
+## Specs
 
-## Goals
+- [specs/v0_resp.md](specs/v0_resp.md)
+- [specs/v1_store.md](specs/v1_store.md)
+- [specs/v2_server.md](specs/v2_server.md)
 
-- RESP2/RESP3 parser
-- Concurrent key-value store with memory bounds
-- Active and passive TTL expiration
-- Compare against `redis-benchmark` for a core command set
+Progress: [docs/PROGRESS.md](docs/PROGRESS.md)
+
+## Quick start
+
+```bash
+make expect-fail
+# edit internal/resp/resp.go
+make test
+```
 
 ## Status
 
-Scaffold only (harness not built yet).
+Harness scaffold. Not a working Redis yet.
